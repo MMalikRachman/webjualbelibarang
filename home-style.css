@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F1F6F9;
+    
+}
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #394867;
+}
+header h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo{
+    width: 120px;
+}
+
+nav{
+    background-color: #212A3E;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu li{
+    display: inline;
+    padding: 25px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+    padding: 10px;
+    
+}
+.menu li a:hover{
+    text-decoration: underline;
+    background-color: #394867;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    margin: 15px;
+}
+main{
+    width: 80%;
+    padding-left: 5%;
+}
+
+.top article{
+    margin: 15px;
+}
+aside{
+    width: 20%;
+    margin-right: 20px;
+}
+aside p{
+color: red;
+text-decoration: underline;
+font-weight: bold;
+
+}
+
+.iklan-gambar{
+    text-align: center;
+}
+
+.iklan-gambar img{
+    width: 250px;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-first-arc{
+    display: flex;
+}
+.text-arc{
+    margin: 15px;
+}
+.main-second-arc{
+    display: flex;
+}
+.arc-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-right: 15px;
+    transition: .3s ease-in-out;
+}
+
+.arc-img:hover{
+transform: scale(1.1);
+}
+.harga-tag{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text-arc h5{
+text-decoration: line-through;
+}
+.text-arc h4{
+    color:red;
+}
+.lowest-price{
+    color: whitesmoke;
+    background-color: red;
+    padding: 5px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+.text-arc a{
+    background-color: #9BA4B5;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+}
+
+.text-arc a:hover{
+    background-color: red;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black; 
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+}
+th{
+    background-color: #394867;
+    color: white;
+    word-spacing: 5px;
+}
+
+.diskon-tag{
+    color: red;
+    font-weight: bold;
+}
+
+
+.iklan-vidio{
+    text-align: center;
+}
+.iklan-vidio p{
+    text-align: center;
+    
+}
+
+.iklan-vidio video{
+    width: 250px;
+    
+   
+}
+
+@media screen and (max-width:650px){
+    .menu li{
+        padding: 0px;
+    }
+    .main-first-arc{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-second-arc{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+    }
+}

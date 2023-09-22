@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F1F6F9;
+    
+}
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #394867;
+}
+header h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo{
+    width: 120px;
+}
+
+nav{
+    background-color: #212A3E;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+.menu li{
+    display: inline;
+    padding: 25px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+    padding: 10px;
+    
+}
+.menu li a:hover{
+    text-decoration: underline;
+    background-color: #394867;
+    border-radius: 40px;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+}
+
+.alamat img{
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px;
+    transition: .2s ease-in-out;
+}
+.alamat img:hover{
+
+    transform: scale(1.1);
+}
+.alamat{
+    text-align: center;
+}
+
+.icon-sosmed{
+    width: 70px;
+    height: 70px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2); 
+    border-radius: 20px;
+    padding: 10px;
+    transition: .2s ease-in-out;
+}
+.icon-sosmed:hover{
+    transform: scale(1.1);
+}
+.sosmed p{
+    color: #212A3E;
+    font-weight: bold;
+}
+.sosmed{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:650px){
+    .menu li{
+        padding: 0px;
+    }
+    .sosmed{
+        flex-direction: column;
+        align-items: center;
+    }    
+}

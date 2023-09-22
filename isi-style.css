@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F1F6F9;
+    
+}
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #394867;
+}
+header h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo{
+    width: 120px;
+}
+
+nav{
+    background-color: #212A3E;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu li{
+    display: inline;
+    padding: 25px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+    padding: 10px;
+    
+}
+.menu li a:hover{
+    text-decoration: underline;
+    background-color: #394867;
+    border-radius: 40px;
+    padding: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.form-container{
+    display: flex;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2); 
+}
+.formulir-jual{
+    text-align: center;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 25px; 
+    width: 500px;
+}
+form input{
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#foto{
+    border: solid black;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#submit{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    color: white;
+    background-color: #212A3E;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: .2s ease-in-out;
+}
+
+#submit:hover{
+    transform: scale(1.1);
+}
+.gambar-form{
+    display: flex;
+    align-items: center;
+}
+.gambar-form img{
+width: 400px;
+height: 300px;
+border-radius: 20px;
+/* box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2); */
+
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+}
+
+@media screen and (max-width:650px){
+    .menu li{
+        padding: 0px;
+    }
+    .form-container{
+        flex-direction: column
+    }
+    .gambar-form {
+        justify-content: center;
+    }
+    
+}
